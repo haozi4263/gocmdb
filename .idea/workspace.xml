@@ -15,6 +15,9 @@
       <change beforePath="$PROJECT_DIR$/../gocmdb.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/grpc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grpc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/logs/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/logs/web.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/temp/session/7/8/78f04da16ed7444e70c65ccba2908057" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../test.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

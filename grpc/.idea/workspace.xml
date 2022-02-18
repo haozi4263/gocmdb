@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31a6e499-e225-49f6-92ae-dd697b593529" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/s3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/s3/test/mani.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20191130/gocmdb/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/cloud/plugins/tenant/tenant.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/cloud/plugins/tenant/tenant.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/conf/db.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/conf/db.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/controllers/cloud.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/controllers/cloud.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/logs/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/logs/web.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/views/cloud_platform_page/index.script.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/views/cloud_platform_page/index.script.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gocmdb.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +29,7 @@
   </component>
   <component name="GOROOT" url="file:///usr/local/Cellar/go/1.14.3/libexec" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
   </component>
   <component name="KubernetesApiPersistence">
     <option name="context" value="kubernetes-admin@cluster.local" />

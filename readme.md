@@ -20,14 +20,14 @@ tengxun:
     YBjOre
     endpoint: cvm.tencentcloudapi.com
     region: ap-beijing
-    ak: AKIDA3rU2VeTyVurYD4IYt1v1poW1Gn3rq6Q
-    sk: 1WkO3ScV8Ypx5drufy5vkrmUheT1G9uH
+    ak: xxx
+    sk: xxx
 
 ali:
     endpoint:ecs-cn-shenzhen.aliyuncs.com
     region:cn-guangzhou
-    ak:LTAI4GGKciyqCZ4UutbKo2wv
-    sk:rfZ6JoGIKUUA87k2MNRtRaAgNSStNv
+    ak:xx
+    sk:xx
 
 promethues:
     Node:
@@ -57,4 +57,4 @@ Agent:
     2. 获取配置，生成prometheus配置
 
 
-初始化admin成功, 默认密码: ctvLP_
+初始化admin成功, 默认密码: Y2OVDj

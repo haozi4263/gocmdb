@@ -5997,3 +5997,76 @@
 2021/12/10 18:36:04.100 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   21.82012ms|   match|[97;44m GET     [0m /deploypage/deployindex   r:/deploypage/deployindex/*
 2021/12/10 18:36:04.198 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   5.941491ms|   match|[97;44m GET     [0m /deploy/deploylist   r:/deploy/deploylist/*
 2021/12/10 18:36:23.478 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   6.189912ms|   match|[97;44m GET     [0m /deploy/deploymodify   r:/deploy/deploymodify/*
+2022/02/18 13:22:16.011 [I] [web.go:72]  初始化admin成功, 默认密码: Y2OVDj 
+2022/02/18 13:22:33.654 [I] [asm_amd64.s:1373]  http server Running on http://:8888
+2022/02/18 13:22:46.849 [D] [server.go:2807]  |      127.0.0.1|[90;47m 302 [0m|    638.081µs|   match|[97;44m GET     [0m /     r:/
+2022/02/18 13:22:46.858 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   2.115893ms|   match|[97;44m GET     [0m /auth/login   r:/auth/login/*
+2022/02/18 13:22:46.884 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   2.441833ms|   match|[97;44m GET     [0m /static/css/main.css
+2022/02/18 13:22:46.884 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   2.450195ms|   match|[97;44m GET     [0m /static/plugins/Font-Awesome-4.7.0/css/font-awesome.min.css
+2022/02/18 13:22:47.295 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   1.661475ms|   match|[97;44m GET     [0m /static/plugins/Font-Awesome-4.7.0/fonts/fontawesome-webfont.woff2
+2022/02/18 13:22:47.295 [D] [server.go:2807]  |      127.0.0.1|[97;43m 404 [0m|    891.251µs| nomatch|[97;44m GET     [0m /favicon.ico
+2022/02/18 13:22:55.271 [D] [server.go:2807]  |      127.0.0.1|[90;47m 302 [0m|   4.602418ms|   match|[97;46m POST    [0m /auth/login   r:/auth/login/*
+2022/02/18 13:22:55.294 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  20.815614ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2022/02/18 13:22:55.321 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|     623.65µs|   match|[97;44m GET     [0m /static/plugins/sweetalert-1.1.3/dist/sweetalert.css
+2022/02/18 13:22:55.322 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   1.028909ms|   match|[97;44m GET     [0m /static/js/jquery-3.3.1.min.js
+2022/02/18 13:22:55.323 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|    796.316µs|   match|[97;44m GET     [0m /static/js/popper.min.js
+2022/02/18 13:22:55.324 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   1.503052ms|   match|[97;44m GET     [0m /static/js/bootstrap.min.js
+2022/02/18 13:22:55.324 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   1.441594ms|   match|[97;44m GET     [0m /static/js/main.js
+2022/02/18 13:22:55.325 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   1.239902ms|   match|[97;44m GET     [0m /static/js/plugins/pace.min.js
+2022/02/18 13:22:55.329 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   3.120254ms|   match|[97;44m GET     [0m /static/js/plugins/jquery.dataTables.min.js
+2022/02/18 13:22:55.331 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|    298.213µs|   match|[97;44m GET     [0m /static/js/jquery.cookie-1.4.1.min.js
+2022/02/18 13:22:55.331 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|    369.679µs|   match|[97;44m GET     [0m /static/js/utils.js
+2022/02/18 13:22:55.332 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   1.377781ms|   match|[97;44m GET     [0m /static/plugins/bootstrap-datepicker-1.9.0/js/bootstrap-datepicker.min.js
+2022/02/18 13:22:55.333 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   1.687874ms|   match|[97;44m GET     [0m /static/js/jquery.base64.js
+2022/02/18 13:22:55.333 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   2.076331ms|   match|[97;44m GET     [0m /static/js/plugins/dataTables.bootstrap.min.js
+2022/02/18 13:22:55.335 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|     548.83µs|   match|[97;44m GET     [0m /static/plugins/jquery.formatDateTime-1.1.6/dist/jquery.formatDateTime.min.js
+2022/02/18 13:22:55.336 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   1.184751ms|   match|[97;44m GET     [0m /static/plugins/sweetalert-1.1.3/dist/sweetalert.min.js
+2022/02/18 13:22:55.338 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   2.295425ms|   match|[97;44m GET     [0m /static/js/plugins/select2.min.js
+2022/02/18 13:22:55.338 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   3.000291ms|   match|[97;44m GET     [0m /static/plugins/bootstrap-datepicker-1.9.0/locales/bootstrap-datepicker.zh-CN.min.js
+2022/02/18 13:22:55.460 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|    474.187µs|   match|[97;44m GET     [0m /static/json/datatable.i18n.zh_CN.json
+2022/02/18 13:22:55.498 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  15.161811ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2022/02/18 13:22:58.898 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  26.094997ms|   match|[97;44m GET     [0m /prometheustargetpage/index   r:/prometheustargetpage/index/*
+2022/02/18 13:22:59.009 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  15.882959ms|   match|[97;44m GET     [0m /prometheustargetpage/list   r:/prometheustargetpage/list/*
+2022/02/18 13:22:59.298 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   26.39302ms|   match|[97;44m GET     [0m /prometheusnodepage/index   r:/prometheusnodepage/index/*
+2022/02/18 13:22:59.414 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  11.738292ms|   match|[97;44m GET     [0m /prometheusnodepage/list   r:/prometheusnodepage/list/*
+2022/02/18 13:22:59.978 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  22.486904ms|   match|[97;44m GET     [0m /prometheusjobpage/index   r:/prometheusjobpage/index/*
+2022/02/18 13:23:00.070 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  12.010628ms|   match|[97;44m GET     [0m /prometheusjobpage/list   r:/prometheusjobpage/list/*
+2022/02/18 13:23:00.466 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  25.453345ms|   match|[97;44m GET     [0m /prometheustargetpage/index   r:/prometheustargetpage/index/*
+2022/02/18 13:23:00.557 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   6.923703ms|   match|[97;44m GET     [0m /prometheustargetpage/list   r:/prometheustargetpage/list/*
+2022/02/18 13:23:01.840 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   63.50471ms|   match|[97;44m GET     [0m /k8sdeploymentpage/index   r:/k8sdeploymentpage/index/*
+2022/02/18 13:23:02.291 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m| 365.600438ms|   match|[97;44m GET     [0m /k8sdeploymentpage/list   r:/k8sdeploymentpage/list/*
+2022/02/18 13:23:02.512 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  51.689212ms|   match|[97;44m GET     [0m /k8sdeploymentpage/index   r:/k8sdeploymentpage/index/*
+2022/02/18 13:23:02.645 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  59.669518ms|   match|[97;44m GET     [0m /k8sdeploymentpage/list   r:/k8sdeploymentpage/list/*
+2022/02/18 13:23:13.379 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   64.24922ms|   match|[97;44m GET     [0m /k8sdeploymentpage/index   r:/k8sdeploymentpage/index/*
+2022/02/18 13:23:13.513 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  57.695725ms|   match|[97;44m GET     [0m /k8sdeploymentpage/list   r:/k8sdeploymentpage/list/*
+2022/02/18 13:23:13.730 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  53.356792ms|   match|[97;44m GET     [0m /k8sdeploymentpage/index   r:/k8sdeploymentpage/index/*
+2022/02/18 13:23:13.877 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  66.550545ms|   match|[97;44m GET     [0m /k8sdeploymentpage/list   r:/k8sdeploymentpage/list/*
+2022/02/18 13:23:14.192 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  61.929705ms|   match|[97;44m GET     [0m /k8sdeploymentpage/index   r:/k8sdeploymentpage/index/*
+2022/02/18 13:23:14.355 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  70.689002ms|   match|[97;44m GET     [0m /k8sdeploymentpage/list   r:/k8sdeploymentpage/list/*
+2022/02/18 13:23:14.946 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  62.764829ms|   match|[97;44m GET     [0m /k8sdeploymentpage/index   r:/k8sdeploymentpage/index/*
+2022/02/18 13:23:15.084 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  62.050104ms|   match|[97;44m GET     [0m /k8sdeploymentpage/list   r:/k8sdeploymentpage/list/*
+2022/02/18 13:23:15.459 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  60.908736ms|   match|[97;44m GET     [0m /k8sdeploymentpage/index   r:/k8sdeploymentpage/index/*
+2022/02/18 13:23:15.608 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  60.963195ms|   match|[97;44m GET     [0m /k8sdeploymentpage/list   r:/k8sdeploymentpage/list/*
+2022/02/18 13:23:39.191 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  22.246705ms|   match|[97;44m GET     [0m /ticketpage/index   r:/ticketpage/index/*
+2022/02/18 13:23:39.301 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  12.752928ms|   match|[97;44m GET     [0m /ticket/list   r:/ticket/list/*
+2022/02/18 13:23:40.765 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   6.485069ms|   match|[97;44m GET     [0m /ticket/create   r:/ticket/create/*
+2022/02/18 13:24:03.370 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  12.240066ms|   match|[97;46m POST    [0m /ticket/create   r:/ticket/create/*
+2022/02/18 13:24:04.691 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  11.670736ms|   match|[97;44m GET     [0m /ticket/list   r:/ticket/list/*
+2022/02/18 13:24:13.061 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  21.479316ms|   match|[97;44m GET     [0m /deploypage/projectindex   r:/deploypage/projectindex/*
+2022/02/18 13:24:13.161 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  13.273119ms|   match|[97;44m GET     [0m /deploy/projectlist   r:/deploy/projectlist/*
+2022/02/18 13:24:14.697 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  32.264388ms|   match|[97;44m GET     [0m /deploy/projectcreate   r:/deploy/projectcreate/*
+2022/02/18 13:24:29.973 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  21.165902ms|   match|[97;44m GET     [0m /deploypage/projectindex   r:/deploypage/projectindex/*
+2022/02/18 13:24:30.070 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   8.439905ms|   match|[97;44m GET     [0m /deploy/projectlist   r:/deploy/projectlist/*
+2022/02/18 13:24:31.749 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  27.838486ms|   match|[97;44m GET     [0m /deploypage/deployindex   r:/deploypage/deployindex/*
+2022/02/18 13:24:31.867 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  12.521083ms|   match|[97;44m GET     [0m /deploy/deploylist   r:/deploy/deploylist/*
+2022/02/18 13:24:34.809 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   22.38093ms|   match|[97;44m GET     [0m /prometheusnodepage/index   r:/prometheusnodepage/index/*
+2022/02/18 13:24:34.908 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   7.607038ms|   match|[97;44m GET     [0m /prometheusnodepage/list   r:/prometheusnodepage/list/*
+2022/02/18 13:24:35.898 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  24.761648ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2022/02/18 13:24:35.995 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   7.445859ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2022/02/18 13:24:36.674 [D] [server.go:2807]  |      127.0.0.1|[97;43m 404 [0m|     290.45µs| nomatch|[97;44m GET     [0m /userpage/widgets.html
+2022/02/18 13:24:38.955 [D] [server.go:2807]  |      127.0.0.1|[97;43m 404 [0m|    433.341µs| nomatch|[97;44m GET     [0m /userpage/dashboard.html
+2022/02/18 13:25:44.827 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  23.169005ms|   match|[97;44m GET     [0m /deploypage/projectindex   r:/deploypage/projectindex/*
+2022/02/18 13:25:44.935 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   9.623979ms|   match|[97;44m GET     [0m /deploy/projectlist   r:/deploy/projectlist/*
+2022/02/18 14:09:42.289 [D] [server.go:2807]  |      127.0.0.1|[90;47m 302 [0m|     1.1266ms|   match|[97;44m GET     [0m /     r:/
+2022/02/18 14:09:42.328 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   33.09375ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2022/02/18 14:09:42.696 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  11.525544ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
