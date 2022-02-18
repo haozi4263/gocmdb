@@ -1,0 +1,10 @@
+{"agents":"info","level":"info","msg":"程序启动info","time":"2021-05-08T22:39:42+08:00"}
+{"agents":"info","level":"info","msg":"程序启动info","time":"2021-05-08T22:41:07+08:00"}
+{"agents":"info","level":"info","msg":"程序启动info","time":"2021-05-08T22:41:14+08:00"}
+{"level":"info","msg":"promagent is running","pid":30578,"time":"2021-08-06T14:43:26+08:00"}
+{"level":"info","msg":"task is running ..","task":"profile","time":"2021-08-06T14:43:26+08:00"}
+{"level":"info","msg":"task is running ..","task":"register","time":"2021-08-06T14:43:26+08:00"}
+{"error":"Post \"http://127.0.0.1:8888/v1/prometheus/register\": dial tcp 127.0.0.1:8888: connect: connection refused","level":"error","msg":"error request regiser","time":"2021-08-06T14:43:26+08:00"}
+{"error":"Get \"http://127.0.0.1:8888/v1/prometheus/config?uuid=29ed2e20-644c-4719-a904-286431a018eb\": dial tcp 127.0.0.1:8888: connect: connection refused","level":"error","msg":"error request config","time":"2021-08-06T14:43:26+08:00"}
+{"error":"Get \"http://127.0.0.1:8888/v1/prometheus/config?uuid=29ed2e20-644c-4719-a904-286431a018eb\": dial tcp 127.0.0.1:8888: connect: connection refused","level":"error","msg":"error request config","time":"2021-08-06T14:43:36+08:00"}
+{"level":"info","msg":"promagent stopped","time":"2021-08-06T14:43:42+08:00"}

@@ -1,0 +1,9 @@
+
+
+Agent:
+    UUID
+    ADDr http://host:port/path
+    LogConfig
+    ServerConfig
+        Addr
+        Token

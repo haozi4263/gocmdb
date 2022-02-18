@@ -1,0 +1,68 @@
+<form data-url="{{ urlfor `TicketController.Modify` }}" data-callback="reload_table">
+    <div class="form-group row" hidden="hidden">
+        <label class="col-2 col-form-label" for="id">ID</label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="id" name="id" placeholder="id" value="{{ .ticket.Id }}"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="name">名称<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="name" name="name" placeholder="名称" value="{{ .ticket.Name }}"/>
+            <small class="form-text text-muted">
+                只能由大小写英文、数字、下划线和中划线组成，长度为5~32位，且必须唯一
+            </small>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label">所属环境</label>
+        <div class="col-10">
+            <select class="form-control envs"  name="env" id="env" >
+                {{ range $key, $val := .envs }}
+                <option value="{{ $val }}">{{ $val }}</option>
+                {{ end }}
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="env">处理人</label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="dispose_user" name="dispose_user" placeholder="处理人" value="{{ .ticket.DisposeUser }}"/>
+        </div>
+    </div>
+
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label">状态</label>
+        <div class="col-10">
+            <select class="form-control status"  name="status" id="status" >
+                {{ range $key, $val := .status }}
+                <option value="{{ $val }}">{{ $val }}</option>
+                {{ end }}
+            </select>
+        </div>
+    </div>
+
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="detail">申请信息</label>
+        <div class="col-10">
+            <textarea class="form-control" id="detail" name="detail" rows="5" placeholder="申请信息">{{ .ticket.Detail }}</textarea>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="remark">备注</label>
+        <div class="col-10">
+            <textarea class="form-control" id="remark" name="remark" rows="3" placeholder="备注">{{ .ticket.Remark }}</textarea>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="done_time">完成时间</label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="done_time" name="done_time" placeholder="完成时间" value="{{ .ticket.DoneTime }}"/>
+        </div>
+    </div>
+</form>

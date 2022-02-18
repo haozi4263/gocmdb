@@ -1,0 +1,62 @@
+<!--bootstrap日历css-->
+<link rel="stylesheet" href="../../static/plugins/bootstrap-datepicker-1.9.0/css/bootstrap-datepicker3.css">
+<!--日历插件-->
+<script src="../../static/plugins/bootstrap-datepicker-1.9.0/js/bootstrap-datepicker.min.js"></script>
+<div class="row">
+    <div class="form-group col-xs-6	col-sm-3	col-md-3	col-lg-2">
+        <input type="text" class="public_input" id="apply" placeholder="申请时间">
+    </div>
+    <div class="form-group col-xs-6	col-sm-3	col-md-3	col-lg-2">
+        <input type="text" class="public_input" id="audit" placeholder="审核时间">
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        //基本初始化
+        orderSection('#apply')
+        orderSectionLeft('#audit')
+    })
+    //靠左的日期区间选择，带时间,以一分钟为区间
+    function orderSectionLeft(label) {
+        //订单时间范围执行日期区间选择方法
+        $(label).daterangepicker({
+            autoUpdateInput:false,  //指示日期范围选择器是否应<input> 在初始化时以及所选日期更改时自动更新其附加元素的值
+            timePicker: true,
+            timePickerIncrement: 1,//设置分钟区间
+            opens: 'left',//选择器靠左显示
+            locale: {
+                applyLabel:'确定',    //确定按钮内容改变
+                cancelLabel:'清空',   //取消按钮内容改变
+                format: 'MM/DD/YYYY hh:mm A',
+                separator: " - ",
+                daysOfWeek: ["日","一","二","三","四","五","六"],//代替英文的周
+                monthNames: ["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月"]
+            }
+        }).on('apply.daterangepicker', function(ev, picker) {//点击确定
+            $(label).val(picker.startDate.format('YYYY-MM-DD hh:mm A')+" 至 "+picker.endDate.format('YYYY-MM-DD hh:mm A'));
+        }).on('cancel.daterangepicker',function (ev,picker) {//点击取消
+            $(label).val("");
+        });
+    }
+    //靠右的日期区间选择，带时间,以一分钟为区间
+    function orderSection(label) {
+        //订单时间范围执行日期区间选择方法
+        $(label).daterangepicker({
+            autoUpdateInput:false,  //指示日期范围选择器是否应<input> 在初始化时以及所选日期更改时自动更新其附加元素的值
+            timePicker: true,
+            timePickerIncrement: 1,//设置分钟区间
+            locale: {
+                applyLabel:'确定',    //确定按钮内容改变
+                cancelLabel:'清空',   //取消按钮内容改变
+                format: 'MM/DD/YYYY hh:mm A',
+                separator: " - ",
+                daysOfWeek: ["日","一","二","三","四","五","六"],//代替英文的周
+                monthNames: ["一月","二月","三月","四月","五月","六月","七月","八月","九月","十月","十一月","十二月"]
+            }
+        }).on('apply.daterangepicker', function(ev, picker) {//点击确定
+            $(label).val(picker.startDate.format('YYYY-MM-DD hh:mm A')+" 至 "+picker.endDate.format('YYYY-MM-DD hh:mm A'));
+        }).on('cancel.daterangepicker',function (ev,picker) {//点击取消
+            $(label).val("");
+        });
+    }
+</script>

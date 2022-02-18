@@ -1,0 +1,22 @@
+// 声明proto版本，只有proto3才支持grpc
+syntax = "proto3";
+// 将生成的文件放到grpc/proto目录下并已proto作为包名
+option go_package = "grpc/protos";
+// 定义请求参数
+message EchoRequest {
+  string Req = 1;
+}
+// 定义返回参数
+message  EchoResponse {
+  string Rsp = 1;
+}
+
+// 定义EchoService服务
+service EchoService {
+  rpc UnaryEcho(EchoRequest) returns (EchoResponse);
+  rpc SStreamEcho (EchoRequest) returns (stream EchoResponse);
+  rpc CStreamEcho (stream EchoRequest) returns (EchoResponse);
+  rpc BiStreamEcho (stream EchoRequest) returns (stream EchoResponse);
+}
+// --go_opt=paths=source_relative 使用相对路径
+// protoc  --go_out=../protos  --go_opt=paths=source_relative --go-grpc_out=../protos --go-grpc_opt=paths=source_relative echo.proto

@@ -1,0 +1,150 @@
+<form data-url="{{ urlfor `ProjectCreate.Create` }}" data-callback="reload_table">
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="name">名称<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="name" name="name" placeholder="名称"/>
+            <small class="form-text text-muted">
+                只能由大小写英文、数字、下划线和中划线组成，长度为5~32位，且必须唯一
+            </small>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label">类型</label>
+        <div class="col-10">
+            <select class="form-control" name="type" id="type">
+                {{ range $key, $val := .type }}
+                <option value="{{ $val }}">{{ $val }}</option>
+                {{ end }}
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label">jenkins_job</label>
+        <div class="col-10">
+            <select class="form-control" name="jenkins" id="jenkins">
+                {{ range $key, $val := .jenkins }}
+                <option value="{{ $key }}">{{ $val.Raw.Name }}</option>
+                {{ end }}
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label">发布环境</label>
+        <div class="col-10">
+            <select class="form-control envs"  name="env" id="env" >
+                {{ range $key, $val := .envs }}
+                <option value="{{ $val }}">{{ $val }}</option>
+                {{ end }}
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="describe">描述<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="describe" name="describe" placeholder="描述"/>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="git_url">Git地址<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="git_url" name="git_url" placeholder="Git地址"/>
+        </div>
+    </div>
+
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="build_cmd">Docker Build命令</label>
+        <div class="col-10">
+            <textarea class="form-control" id="build_cmd" name="build_cmd" rows="3" placeholder="Docker Build命令"></textarea>
+            <small class="form-text text-muted">
+                长度为0~512位
+            </small>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="port">端口<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="port" name="port" placeholder="端口"/>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label">服务类型</label>
+        <div class="col-10">
+            <select class="form-control" name="svc_type" id="svc_type">
+                {{ range $key, $val := .svc_type }}
+                <option value="{{ $val }}">{{ $val }}</option>
+                {{ end }}
+            </select>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="create_user">创建人<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="create_user" name="create_user" placeholder="创建人"/>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="limit_mem">limit_mem<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="limit_mem" name="limit_mem" placeholder="limit_mem"/>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="limit_cpu">limit_cpu<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="limit_cpu" name="limit_cpu" placeholder="limit_cpu"/>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="req_cpu">req_cpu<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="req_cpu" name="req_cpu" placeholder="req_cpu"/>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="req_mem">req_mem<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="req_mem" name="req_mem" placeholder="req_mem"/>
+        </div>
+    </div>
+
+
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="liveness_probe">liveness_probe</label>
+        <div class="col-10">
+            <textarea class="form-control" id="liveness_probe" name="liveness_probe" rows="5" placeholder="liveness_probe"></textarea>
+            <small class="form-text text-muted">
+                长度为0~512位
+            </small>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="readiness_probe">readiness_probe</label>
+        <div class="col-10">
+            <textarea class="form-control" id="readiness_probe" name="readiness_probe" rows="5" placeholder="readiness_probe"></textarea>
+            <small class="form-text text-muted">
+                长度为0~512位
+            </small>
+        </div>
+    </div>
+
+
+
+
+
+</form>
+

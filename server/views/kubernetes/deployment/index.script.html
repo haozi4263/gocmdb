@@ -1,0 +1,111 @@
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        var table = jQuery("#table").DataTable({
+            dom:'<"row"<"col-5"l><"col-3"f><"#buttons.col-3">>t<"row"<"col-6"i><"col-6"p>>',
+            serverSide: true,
+            ajax: {
+                url : "{{ urlfor `K8sDeploymentPageController.List` }}",
+                data: function(data) {
+                    return {
+                        draw: data.draw,
+                        start: data.start,
+                        length: data.length,
+                        q: data.search.value,
+                        ns: jQuery('select.ns').val()
+
+                    };
+                },
+                dataSrc: "result"
+            },
+            columns: [
+                {
+                    data: function(row) {
+                        return htmlEncode(row['metadata']['namespace']);
+                    }
+                },
+                {
+                    data: function(row) {
+                        return htmlEncode(row['metadata']['name']);
+                    }
+                },
+                {
+                    data: function(row) {
+                        return  htmlEncode(row['spec']['replicas'])+ '/'+ htmlEncode(row['status']['availableReplicas']);
+                    }
+                },
+                {
+                    data: function(row) {
+                        var image = ""
+                        jQuery.each(row['spec']['template']['spec']['containers'], function(index, value) {
+                            image = htmlEncode(value['image'])
+                        });
+                        return image
+                    }
+                },
+
+                {
+                    data: function(row) {
+                        var request_cpu = "0"
+                        var request_memory = "0"
+                        var limit_cpu = "0"
+                        var limit_memory = "0"
+                        jQuery.each(row['spec']['template']['spec']['containers'], function(index, value) {
+                            if (value['resources']['requests'] != undefined){
+                                request_cpu = htmlEncode(value['resources']['requests']['cpu'])
+                                request_memory = htmlEncode(value['resources']['requests']['memory'])
+                                limit_cpu = htmlEncode(value['resources']['limits']['cpu'])
+                                limit_memory = htmlEncode(value['resources']['limits']['memory'])
+                            }
+                        });
+
+                        var resorce = '<div>申请资源: '+request_cpu+'/'+request_memory+'</div> <div>限制资源: '+limit_cpu+'/'+limit_memory+'</div>'
+                        return resorce;
+                    }
+                },
+                {
+                    data: function(row) {
+                        if(row['spec']['template']['metadata']['creationTimestamp']) {
+                            return htmlEncode(jQuery.formatDateTime("yy-mm-dd hh:ii:ss", new Date(row['metadata']['creationTimestamp'])));
+                        }
+                        return htmlEncode('');
+                    }
+                },
+                {
+                    data: function(row) {
+                        var buttons = ['<div class="btn-group" role="group">'];
+                        buttons.push('<button class="btn btn-sm btn-warning btn-open-dialog" data-title="编辑" data-url="{{ urlfor `deployments.Modify` }}?pk=:pk:">编辑</div>')
+                        buttons.push('<button class="btn btn-sm btn-danger btn-control"  data-title="确定删除?" data-url="{{ urlfor `deployments.Delete` }}" data-pk=":pk:" data-callback="reload_table">删除</div>');
+                        buttons.push('</div>');
+                        return buttons.join("").replace(/:pk:/g, row['id']);
+                    }
+                }
+            ]
+        });
+        table.on("draw", function() {
+            if(!jQuery("#buttons").attr("initd")) {
+                jQuery("#buttons").attr("initd", "initd").html('<form><div class="form-group row"><label class="col-4 col-form-label col-form-label-sm text-right">命名空间: </label><div class="col-6"><select class="form-control ns form-control-sm" ></select></div></div></form>');
+            }
+            jQuery("select.ns").select2({
+                tags: true,
+                maximumSelectionLength: 3,
+                ajax: {
+                    url: "{{ urlfor `K8sDeploymentPageController.GetNs` }}",
+                    processResults: function (response) {
+                        console.log("resp:", response)
+                        return {
+                            results: response
+                        };
+                    }
+                }
+            })
+        });
+
+        window["reload_table"] = function(response) {
+            console.log("response:", response)
+            table.ajax.reload(null, false);
+        };
+        jQuery(document).on("change", "select.ns", function() {
+            table.ajax.reload(null, false);
+        });
+    });
+</script>

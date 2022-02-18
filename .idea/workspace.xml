@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8ae36630-7eec-4960-9a3a-1c5a414255ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/s3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/s3/test/mani.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20191130/gocmdb/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20191130/gocmdb/server/cloud/plugins/tenant/tenant.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/server/cloud/plugins/tenant/tenant.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20191130/gocmdb/server/conf/db.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/server/conf/db.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20191130/gocmdb/server/controllers/cloud.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/server/controllers/cloud.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20191130/gocmdb/server/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/server/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20191130/gocmdb/server/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/server/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20191130/gocmdb/server/logs/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/server/logs/web.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20191130/gocmdb/server/views/cloud_platform_page/index.script.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/server/views/cloud_platform_page/index.script.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gocmdb.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grpc/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.go" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.14.3/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/imsilence/htgolang-201906" />
+      </set>
+    </option>
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="kubernetes-admin@cluster.local" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="ProjectId" id="1qLAPAmL2PEY1XJ83ezGN7EBHzG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/forms" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/forms" />
+      <recent name="$PROJECT_DIR$/server/views/deploy" />
+      <recent name="$PROJECT_DIR$/server/views" />
+      <recent name="$PROJECT_DIR$/server/models" />
+      <recent name="$PROJECT_DIR$/server/controllers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/todolist/static/plugins" />
+      <recent name="$PROJECT_DIR$/agents/etc/prometheus" />
+      <recent name="$PROJECT_DIR$/server/services" />
+      <recent name="$PROJECT_DIR$/server/services/prometheus" />
+      <recent name="$PROJECT_DIR$/server/controllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build gocmdb/server">
+    <configuration name="go build gocmdb/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gocmdb" />
+      <working_directory value="$PROJECT_DIR$/server" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/server/web.go" />
+      <package value="gocmdb/server" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build htgolang-201906/course/20191214/code/gocmdb/rpc/demo1/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gocmdb" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/rpc/demo1/client/main.go" />
+      <package value="htgolang-201906/course/20191214/code/gocmdb/rpc/demo1/client" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build htgolang-201906/course/20191214/code/gocmdb/rpc/demo1/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gocmdb" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/rpc/demo1/server/main.go" />
+      <package value="htgolang-201906/course/20191214/code/gocmdb/rpc/demo1/server" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build htgolang-201906/course/20191214/code/gocmdb/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gocmdb" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/test/main.go" />
+      <package value="htgolang-201906/course/20191214/code/gocmdb/test" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="gocmdb" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test/server.go" />
+      <package value="htgolang-201906/course/20191214/code/gocmdb" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build gocmdb/server" />
+        <item itemvalue="Go Build.go build htgolang-201906/course/20191214/code/gocmdb/rpc/demo1/client" />
+        <item itemvalue="Go Build.go build htgolang-201906/course/20191214/code/gocmdb/rpc/demo1/server" />
+        <item itemvalue="Go Build.go build htgolang-201906/course/20191214/code/gocmdb/test" />
+        <item itemvalue="Go Build.go build server.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>

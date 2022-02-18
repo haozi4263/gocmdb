@@ -1,0 +1,81 @@
+<script type="text/javascript">
+jQuery(document).ready(function() {
+    var table = jQuery("#table-deploy").DataTable({
+        dom:'<"row"<"col-6"l><"col-4"f><"#buttons.col-1">>t<"row"<"col-6"i><"col-6"p>>',
+        serverSide: true,
+        ajax: {
+            url : "{{ urlfor `DeployController.DeployList` }}",
+            data: function(data) {
+                return {
+                    draw: data.draw,
+                    start: data.start,
+                    length: data.length,
+                    q: data.search.value
+                };
+            },
+            dataSrc: "result"
+        },
+
+        columns: [
+            {
+                data: function(row) {
+                    return htmlEncode(row['id']);
+                }
+            },
+
+            {
+                data: function(row) {
+                    return htmlEncode(row['name']);
+                }
+            },
+
+            {
+                data: function(row) {
+                    return htmlEncode(row['env']);
+                }
+            },
+            {
+                data: function(row) {
+                    return htmlEncode(row['branch']);
+                }
+            },
+            {
+                data: function(row) {
+                    return htmlEncode(row['version']);
+                }
+            },
+
+            {
+                data: function(row) {
+                    if(row['update_time']) {
+                        return htmlEncode(jQuery.formatDateTime("yy-mm-dd hh:ii:ss", new Date(row['update_time'])));
+                    }
+                    return htmlEncode('');
+                }
+            },
+            {
+                data: function(row) {
+                    var buttons = ['<div class="btn-group" role="group">'];
+                    buttons.push('<button class="btn btn-sm btn-warning btn-open-dialog" data-title="编辑" data-commid="发布" data-url="{{ urlfor `DeployController.DeployModify` }}?pk=:pk:">编辑</div>')
+                    buttons.push('<button class="btn btn-sm btn-success btn-control" data-title="删除" data-url="{{ urlfor `DeployController.DeployDelete` }}" data-pk=":pk:" data-callback="reload_table">删除</div>');
+                    buttons.push('</div>');
+                    return buttons.join("").replace(/:pk:/g, row['id']);
+                }
+            }
+        ]
+    });
+
+    table.on("draw", function() {
+        if(!jQuery("#buttons").attr("initd")) {
+            jQuery("#buttons").attr("initd", "initd").html('<button class="btn btn-primary btn-sm btn-block btn-open-dialog" data-url="{{ urlfor `DeployController.DeployCreate` }}" data-title="新建发布">新建</button>');
+        }
+        jQuery("select.envs").select2()
+    });
+
+    window["reload_table"] = function(response) {
+        table.ajax.reload(null, false);
+    };
+
+
+});
+</script>

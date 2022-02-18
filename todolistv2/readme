@@ -1,0 +1,46 @@
+使用beego开发todolist
+
+1. 用户管理
+    超级管理拥有此权限 ==> admin
+    可对用户进行新建、修改、删除、重置密码
+2. 修改密码
+    各用户可修改自己的密码
+3. 任务管理
+    针对超级管理可查看和操作所有用户创建任务
+    普通用户只能查看和操作自己创建的任务
+
+
+使用：
+1. 编译
+2. 创建数据库
+3. 修改app.conf(主要为数据库)
+4. todolist.exe -init 初始化
+5. todolist.exe 启动web服务
+
+初始化数据库：
+    go run main.go --init -force                                                                                   [23:34:49]
+    初始化用户: admin, 密码: V0wtuo
+datatable:
+    table ==>页面==》dataTable前端js分页
+    ajax ==>请求数据==》datatable根据ajax返回数据生成分页页面数据（前端查询:js）
+    全后端 ajax
+ajax:
+    jquery.get
+    jquery.post
+        url
+        data
+        会调函数(response) //response服务端返回的数据
+        type:json 服务端返回的数据格式
+            code: 200/400/403/500
+            text: "code msg"
+            result: nil/[]/map
+
+创建：
+    dialog => 内容(index.html) 不发送请求
+编辑:
+    dialog => 表单内容(index.html) jquery.val设置值
+            数据 => 发送请求获取的ajax => 填充到表单input中
+            存在字段对应关系问题
+    dialog => ajax 获取表单内容+数据html =>放在dialog中
+        jquery(selector).load(url)  发送ajax请求，将请求内容填充到selector中
+

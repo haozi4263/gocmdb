@@ -1,0 +1,11 @@
+groups:
+  - name: instance
+    rules:
+      - alert: 主机状态
+        expr: up == 0
+        for: 2m
+        labels:
+          status: warning
+        annotations:
+          summary: "{{$labels.instance}}:服务器关闭"
+          description: "{{$labels.instance}}:服务器关闭"

@@ -1,0 +1,19 @@
+
+addr: http://localhost:9090
+
+server:
+  token: 27370a6e2db5911d2faa98c50db37704
+  addr: http://127.0.0.1:8888
+log:
+  filename: logs/promagent.log
+  maxbackups: 7
+  maxsize: 5
+  compress: true
+task:
+  register:
+    interval: 60s
+  profile:
+    interval: 10s
+    tpl: ./etc/prometheus/prometheus.yaml.tpl
+    output: ./etc/prometheus/prometheus.yaml
+

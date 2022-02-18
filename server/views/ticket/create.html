@@ -1,0 +1,74 @@
+<form data-url="{{ urlfor `TicketController.Create` }}" data-callback="reload_table">
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="name">名称<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="name" name="name" placeholder="名称"/>
+            <small class="form-text text-muted">
+                只能由大小写英文、数字、下划线和中划线组成，长度为5~32位，且必须唯一
+            </small>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label">类型</label>
+        <div class="col-10">
+            <select class="form-control" name="types" id="types">
+                {{ range $key, $val := .types }}
+                <option value="{{ $val }}">{{ $val }}</option>
+                {{ end }}
+            </select>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="dispose_user">处理人<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="dispose_user" name="dispose_user" placeholder="处理工单人"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="done_time">完成时间</label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="done_time" name="done_time" datepicker="datepicker" placeholder="期望工单完成时间"/>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-2 col-form-label">所属环境</label>
+        <div class="col-10">
+            <select class="form-control envs"  name="envs" id="envs" >
+                {{ range $key, $val := .envs }}
+                <option value="{{ $val }}">{{ $val }}</option>
+                {{ end }}
+            </select>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="tel">电话<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="tel" name="tel" placeholder="您的联系电话"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="detail">申请原因</label>
+        <div class="col-10">
+            <textarea class="form-control" id="detail" name="detail" rows="5" placeholder="申请详细信息">
+                实例:
+                规格:
+                操作:
+                权限:
+            </textarea>
+            <small class="form-text text-muted">
+                长度为0~512位
+            </small>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="remark">备注</label>
+        <div class="col-10">
+            <textarea class="form-control" id="remark" name="remark" rows="3" placeholder="备注说明"></textarea>
+            <small class="form-text text-muted">
+                长度为0~512位
+            </small>
+        </div>
+    </div>
+</form>
+

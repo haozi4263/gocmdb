@@ -1,0 +1,156 @@
+<li>
+    <a class="app-menu__item {{ if eq .menu `dashboard` }}active{{ end }}" href="dashboard.html">
+        <i class="app-menu__icon fa fa-dashboard"></i>
+        <span class="app-menu__label">Dashboard</span>
+    </a>
+</li>
+
+<li class="treeview {{ if eq .expand `cloud_management` }}is-expanded{{end}}">
+    <a class="app-menu__item" href="#" data-toggle="treeview">
+        <i class="app-menu__icon fa fa-cloud"></i>
+        <span class="app-menu__label">云管理</span>
+        <i class="treeview-indicator fa fa-angle-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li>
+            <a class="treeview-item {{ if eq .menu `cloud_platform_management` }}active{{ end }}" href="{{ urlfor `CloudPlatformPageController.Index` }}">
+                <i class="icon fa fa-cubes"></i> 云平台管理
+            </a>
+        </li>
+        <li>
+            <a class="treeview-item {{ if eq .menu `virtual_machine_management` }}active{{ end }}" href="{{ urlfor `VirtualMachinePageController.Index` }}">
+                <i class="icon fa fa-server"></i> 云主机管理
+            </a>
+        </li>
+    </ul>
+</li>
+
+<li class="treeview {{ if eq .expand `system_management` }}is-expanded{{end}}">
+    <a class="app-menu__item" href="#" data-toggle="treeview">
+        <i class="app-menu__icon fa fa-cog"></i>
+        <span class="app-menu__label">系统管理</span>
+        <i class="treeview-indicator fa fa-angle-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li>
+            <a class="treeview-item {{ if eq .menu `user_management` }}active{{ end }}" href="{{ urlfor `UserPageController.Index` }}">
+                <i class="icon fa fa-users"></i> 用户管理
+            </a>
+        </li>
+        <li>
+            <a class="treeview-item {{ if eq .menu `alarm_settings` }}active{{ end }}" href="widgets.html">
+                <i class="icon fa fa-bell"></i> 告警设置
+            </a>
+        </li>
+    </ul>
+</li>
+
+
+
+<li class="treeview {{ if eq .expand `prometheus_management` }}is-expanded{{end}}">
+    <a class="app-menu__item" href="#" data-toggle="treeview">
+        <i class="app-menu__icon fa fa-cog"></i>
+        <span class="app-menu__label">Prometheus</span>
+        <i class="treeview-indicator fa fa-angle-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li>
+            <a class="treeview-item {{ if eq .menu `node_management` }}active{{ end }}" href="{{ urlfor `PrometheusNodePageController.Index` }}">
+                <i class="icon fa fa-server"></i> Node管理
+            </a>
+        </li>
+        <li>
+            <a class="treeview-item {{ if eq .menu `job_management` }}active{{ end }}" href="{{ urlfor `PrometheusJobPageController.Index` }}">
+                <i class="icon fa fa-bell"></i> Job管理
+            </a>
+        </li>
+        <li>
+            <a class="treeview-item {{ if eq .menu `target_management` }}active{{ end }}" href="{{ urlfor `PrometheusTargetPageController.Index` }}">
+                <i class="icon fa fa-eye"></i> Target管理
+            </a>
+        </li>
+    </ul>
+</li>
+
+<li class="treeview {{ if eq .expand `kubernetes_management` }}is-expanded{{end}}">
+    <a class="app-menu__item" href="#" data-toggle="treeview">
+        <i class="app-menu__icon fa fa-cog"></i>
+        <span class="app-menu__label">Kubernetes</span>
+        <i class="treeview-indicator fa fa-angle-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li>
+            <a class="treeview-item {{ if eq .menu `node_management` }}active{{ end }}" href="{{ urlfor `K8sDeploymentPageController.Index` }}">
+                <i class="icon fa fa-server"></i> Node管理
+            </a>
+        </li>
+        <li>
+            <a class="treeview-item {{ if eq .menu `pod_management` }}active{{ end }}" href="{{ urlfor `K8sDeploymentPageController.Index` }}">
+                <i class="icon fa fa-bell"></i> Pod管理
+            </a>
+        </li>
+        <li>
+            <a class="treeview-item {{ if eq .menu `svc_management` }}active{{ end }}" href="{{ urlfor `K8sDeploymentPageController.Index` }}">
+                <i class="icon fa fa-eye"></i> Service管理
+            </a>
+        </li>
+        <li>
+            <a class="treeview-item {{ if eq .menu `ingress_management` }}active{{ end }}" href="{{ urlfor `K8sDeploymentPageController.Index` }}">
+                <i class="icon fa fa-eye"></i> Ingress管理
+            </a>
+        </li>
+        <li>
+            <a class="treeview-item {{ if eq .menu `configmap_management` }}active{{ end }}" href="{{ urlfor `K8sDeploymentPageController.Index` }}">
+                <i class="icon fa fa-eye"></i> Configmap管理
+            </a>
+        </li>
+        <li>
+            <a class="treeview-item {{ if eq .menu `deployment_management` }}active{{ end }}" href="{{ urlfor `K8sDeploymentPageController.Index` }}">
+                <i class="icon fa fa-eye"></i> Deployment管理
+            </a>
+        </li>
+    </ul>
+</li>
+
+
+
+<li class="treeview {{ if eq .expand `ticket_management` }}is-expanded{{end}}">
+    <a class="app-menu__item" href="#" data-toggle="treeview">
+        <i class="app-menu__icon fa fa-cloud"></i>
+        <span class="app-menu__label">工单管理</span>
+        <i class="treeview-indicator fa fa-angle-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li>
+            <a class="treeview-item {{ if eq .menu `my_ticket_management` }}active{{ end }}" href="{{ urlfor `TicketPageController.Index` }}">
+                <i class="icon fa fa-cubes"></i> 我的工单
+            </a>
+        </li>
+        <li>
+            <a class="treeview-item {{ if eq .menu `all_ticket_management` }}active{{ end }}" href="{{ urlfor `TicketPageController.IndexAll` }}">
+                <i class="icon fa fa-server"></i> 所有工单
+            </a>
+        </li>
+    </ul>
+</li>
+
+
+<li class="treeview {{ if eq .expand `deploy_management` }}is-expanded{{end}}">
+    <a class="app-menu__item" href="#" data-toggle="treeview">
+        <i class="app-menu__icon fa fa-cloud"></i>
+        <span class="app-menu__label">发布管理</span>
+        <i class="treeview-indicator fa fa-angle-right"></i>
+    </a>
+    <ul class="treeview-menu">
+        <li>
+            <a class="treeview-item {{ if eq .menu `project_list_management` }}active{{ end }}" href="{{ urlfor `DeployPageController.ProjectIndex` }}">
+                <i class="icon fa fa-cubes"></i> 项目列表
+            </a>
+        </li>
+        <li>
+            <a class="treeview-item {{ if eq .menu `deploy_list_management` }}active{{ end }}" href="{{ urlfor `DeployPageController.DeployIndex` }}">
+                <i class="icon fa fa-server"></i> 发布列表
+            </a>
+        </li>
+    </ul>
+</li>

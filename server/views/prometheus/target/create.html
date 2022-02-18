@@ -1,0 +1,27 @@
+<form data-url="{{ urlfor `PrometheusTargetController.Create` }}" data-callback="reload_table">
+    <div class="form-group row">
+        <label class="col-2 col-form-label">job</label>
+        <div class="col-10">
+            <select class="form-control" name="job_key">
+                {{ range $key, $val := .job }}
+                <option value="{{ $val.Key }}"> {{ $val.Key }}</option>
+                {{ end }}
+            </select>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="name">name<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="name" name="name" placeholder="名称"/>
+            <small class="form-text text-muted">
+                只能由大小写英文、数字、下划线和中划线组成，长度为5~32位，且必须唯一
+            </small>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="addr">地址<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="addr" name="addr" placeholder="地址"/>
+        </div>
+    </div>
+</form>

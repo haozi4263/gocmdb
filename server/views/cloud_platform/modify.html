@@ -1,0 +1,29 @@
+<form data-url="{{ urlfor `CloudPlatformController.Modify` }}" data-callback="reload_table">
+    <div class="form-group row" hidden="hidden">
+        <label class="col-2 col-form-label" for="id">ID</label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="id" name="id" placeholder="id" value="{{ .info.Id }}"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="name">名称<span class="text-danger"> * </span></label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="name" name="name" placeholder="名称" value="{{ .info.Name }}"/>
+            <small class="form-text text-muted">
+                只能由大小写英文、数字、下划线和中划线组成，长度为5~32位，且必须唯一
+            </small>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="region">区域</label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="region" name="region" placeholder="区域" value="{{ .info.Region }}"/>
+        </div>
+    </div>
+    <div class="form-group row">
+        <label class="col-2 col-form-label" for="remark">备注</label>
+        <div class="col-10">
+            <input class="form-control" type="text" id="remark" name="remark" placeholder="备注" value="{{ .info.Remark }}"/>
+        </div>
+    </div>
+</form>

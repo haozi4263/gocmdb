@@ -1,0 +1,76 @@
+<script type="text/javascript">
+ $(document).ready(function (){
+    $("#taskTable").DataTable({
+       language: {
+           url: "/static/json/datatables.i18n.zh_CN.json"
+       }
+    });
+    $(".btn-create").on("click", function (){
+        //打开新建静态模态框
+        $("#modal-create").modal("show");
+    });
+
+    $(".btn-save").on("click", function (){
+    //    先获取新建任务input填写的数据, 通过jquery的serializeArray方法获取from提交的数据
+        var datas = $(".form-create").serializeArray();
+        // 提交数据
+        $.post("{{ urlfor `TaskController.Create` }}",
+            datas,
+            function (response) {
+                switch (response["code"]){
+                    case 200:
+                        alert(response["text"]);
+                        $("#modal-create").modal("hide"); // 关闭模态对话框
+                        window.location.reload(); //刷新页面显示新增数据，后期改成ajax方式请求
+                        break;
+                    case 400: // 遍历服务端返回错误
+                        var errors = [];
+                        $.each(response["result"], function (index, error) {
+                            errors.push(error["Message"]);
+                        });
+                        if (!errors) {
+                            errors.push(response["text"]);
+                        }
+                        alert(errors.join("\n")); //将数组链接成字符串
+                        break;
+                    default:
+                        alert(response["text"]);
+                        break;
+                }
+            }, "json");
+    });
+
+ //   修改数据方法1，js使用要求更高
+     $(".btn-edit").on("click", function (){
+         var pk = $(this).data("pk"); // 获取点击的修改的数据
+
+         $.get(
+             "{{ urlfor `TaskController.Detail` }}",
+             {id: pk},
+             function (response){
+                 switch (response["code"]){
+                    case 200:
+                        var form = $(".form-modify"); // 获取form表单
+                        $.each(response["result"], function (k, v) {
+                            form.find("[name='" + k + "']").val(v); // 设置到form中input里面
+                        });
+                        $("#modal-modify").modal("show");//打开修改 静态模态框
+                         break;
+                     default:
+                         alert(response["text"]);
+                         break;
+                 }
+
+         },
+         "json");
+     });
+// 修改数据方法2,数据结构复杂时候建议使用
+    $(".btn-edit2").on("click", function (){
+        var pk = $(this).data("pk")
+        $("#modal-modify2").find("div.modal-body").load("{{ urlfor `TaskController.Modify` }}?id=" + pk, function (){
+            $("#modal-modify2").modal("show");
+        })
+    });
+
+ });
+</script>
