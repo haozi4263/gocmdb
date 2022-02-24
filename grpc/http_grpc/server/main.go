@@ -3,8 +3,11 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/EDDYCJY/go-grpc-example/pkg/gtls"
 	"google.golang.org/grpc"
+
 	"grpc/protos"
+	"log"
 	"net/http"
 	"strings"
 )
@@ -19,33 +22,49 @@ type EchoService struct {
 // bidirectional rpc, 双向数据流
 func (es *EchoService) UnaryEcho(ctx context.Context, req *protos.EchoRequest) (*protos.EchoResponse, error) {
 	res := "received: " + req.GetReq()
-	fmt.Println(1, res)
 	return &protos.EchoResponse{Rsp: res}, nil
 }
-
 
 func GetHTTPServeMux() *http.ServeMux {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		w.Write([]byte("http: go-http"))
+		w.Write([]byte("grpc-http: grpc-test"))
 	})
 	return mux
 }
 
 func main() {
-	server := grpc.NewServer()                               //创建grpc server
-	protos.RegisterEchoServiceServer(server, &EchoService{}) //绑定
-	http.ListenAndServe(":8080", http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		fmt.Println("ProtoMajor", r.ProtoMajor)
-		if r.ProtoMajor == 2 && strings.Contains(r.Proto, "HTTP/2.0") {
-			server.ServeHTTP(w, r)
-		} else {
-			mux := GetHTTPServeMux()
-			mux.ServeHTTP(w, r)
-		}
-		return
-	}),
+	certFile := "/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/grpc/http_grpc/cert/server.pem"
+	keyFile := "/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/grpc/http_grpc/cert/server.key"
+	tlsServer := gtls.Server{
+		CertFile: certFile,
+		KeyFile:  keyFile,
+	}
+
+	c, err := tlsServer.GetTLSCredentials()
+	if err != nil {
+		log.Fatalf("credentials.NewServerTLSFromFile err: %v", err)
+	}
+
+	httpServer := GetHTTPServeMux()
+
+	//创建grpc server
+	grpcServer := grpc.NewServer(grpc.Creds(c))
+	protos.RegisterEchoServiceServer(grpcServer, &EchoService{}) //绑定
+
+	fmt.Println(5)
+
+	err = http.ListenAndServeTLS(":8080",
+		certFile,
+		keyFile,
+		http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+			if r.ProtoMajor == 2 && strings.Contains(r.Header.Get("Content-Type"), "application/grpc") {
+				grpcServer.ServeHTTP(w, r)
+			} else {
+				httpServer.ServeHTTP(w, r)
+			}
+			return
+		}),
 	)
 
 }
-

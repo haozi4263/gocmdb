@@ -1,0 +1,9 @@
+Country Name (2 letter code) []:China
+string is too long, it needs to be less than  2 bytes long
+Country Name (2 letter code) []:cn
+State or Province Name (full name) []:HuBei
+Locality Name (eg, city) []:WuHan
+Organization Name (eg, company) []:jude.im
+Organizational Unit Name (eg, section) []:devops
+Common Name (eg, fully qualified host name) []:grpc-test
+Email Address []:329672369@qq.com

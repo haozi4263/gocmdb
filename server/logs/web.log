@@ -6070,3 +6070,14 @@
 2022/02/18 14:09:42.289 [D] [server.go:2807]  |      127.0.0.1|[90;47m 302 [0m|     1.1266ms|   match|[97;44m GET     [0m /     r:/
 2022/02/18 14:09:42.328 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   33.09375ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
 2022/02/18 14:09:42.696 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  11.525544ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2022/02/18 14:17:54.760 [D] [server.go:2807]  |      127.0.0.1|[90;47m 302 [0m|    832.169µs|   match|[97;44m GET     [0m /     r:/
+2022/02/18 14:17:54.790 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  25.850151ms|   match|[97;44m GET     [0m /userpage/index   r:/userpage/index/*
+2022/02/18 14:17:55.167 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|    9.25999ms|   match|[97;44m GET     [0m /user/list   r:/user/list/*
+2022/02/18 14:17:58.226 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  69.423387ms|   match|[97;44m GET     [0m /k8sdeploymentpage/index   r:/k8sdeploymentpage/index/*
+2022/02/18 14:17:58.489 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m| 175.970242ms|   match|[97;44m GET     [0m /k8sdeploymentpage/list   r:/k8sdeploymentpage/list/*
+2022/02/18 14:18:04.964 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  23.016348ms|   match|[97;44m GET     [0m /ticketpage/index   r:/ticketpage/index/*
+2022/02/18 14:18:05.076 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   9.905342ms|   match|[97;44m GET     [0m /ticket/list   r:/ticket/list/*
+2022/02/18 14:18:06.816 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  21.318276ms|   match|[97;44m GET     [0m /deploypage/projectindex   r:/deploypage/projectindex/*
+2022/02/18 14:18:06.908 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|    8.80991ms|   match|[97;44m GET     [0m /deploy/projectlist   r:/deploy/projectlist/*
+2022/02/18 14:18:08.688 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|  23.957829ms|   match|[97;44m GET     [0m /ticketpage/index   r:/ticketpage/index/*
+2022/02/18 14:18:08.785 [D] [server.go:2807]  |      127.0.0.1|[97;42m 200 [0m|   9.200826ms|   match|[97;44m GET     [0m /ticket/list   r:/ticket/list/*
