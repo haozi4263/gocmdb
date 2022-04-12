@@ -4,10 +4,8 @@
     <list default="true" id="31a6e499-e225-49f6-92ae-dd697b593529" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/s3/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/s3/test/mani.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gin_grpc/client/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gin_grpc/proto/user.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gin_grpc/server/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http_grpc/cert/ca" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/http/demo1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/options.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../20191130/gocmdb/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/cloud/plugins/tenant/tenant.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/cloud/plugins/tenant/tenant.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/conf/db.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/conf/db.conf" afterDir="false" />
@@ -17,13 +15,12 @@
       <change beforePath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/logs/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/logs/web.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/views/cloud_platform_page/index.script.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20191130/gocmdb/server/views/cloud_platform_page/index.script.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../gocmdb.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_grpc/client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/http_grpc/client/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_grpc/server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/http_grpc/server/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/logs/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/../server/logs/web.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/temp/session/8/3/83babae3525f292dbe1921d3537d5b15" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../test.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,10 +56,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -76,7 +75,7 @@
       <recent name="$PROJECT_DIR$/http_grpc/cert" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build grpc/http_grpc/server">
+  <component name="RunManager" selected="Go Build.go build grpc/http/demo1">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="grpc" />
       <working_directory value="$PROJECT_DIR$" />
@@ -93,6 +92,15 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/gin_grpc/server/main.go" />
       <package value="grpc/gin_grpc/server" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build grpc/http/demo1" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="grpc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/http/demo1/main.go" />
+      <package value="grpc/http/demo1" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -114,20 +122,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="grpc" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/gin_grpc/main.go" />
-      <package value="htgolang-201906/course/20191214/code/gocmdb/grpc" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="grpc" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/gin_grpc/client/main.go" />
+      <filePath value="$PROJECT_DIR$/ego/demo1/main.go" />
       <package value="htgolang-201906/course/20191214/code/gocmdb/grpc" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build grpc/http/demo1" />
+        <item itemvalue="Go Build.go build main.go" />
         <item itemvalue="Go Build.go build grpc/http_grpc/server" />
         <item itemvalue="Go Build.go build grpc/gin_grpc/server" />
         <item itemvalue="Go Build.go build main.go (1)" />
-        <item itemvalue="Go Build.go build main.go (3)" />
-        <item itemvalue="Go Build.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>

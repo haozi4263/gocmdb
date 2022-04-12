@@ -4,6 +4,9 @@
     <list default="true" id="8ae36630-7eec-4960-9a3a-1c5a414255ee" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/s3/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/s3/test/mani.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/http/demo1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/options.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../20191130/gocmdb/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../20191130/gocmdb/server/cloud/plugins/tenant/tenant.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/server/cloud/plugins/tenant/tenant.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../20191130/gocmdb/server/conf/db.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/server/conf/db.conf" afterDir="false" />
@@ -13,11 +16,334 @@
       <change beforePath="$PROJECT_DIR$/../../../20191130/gocmdb/server/logs/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/server/logs/web.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../20191130/gocmdb/server/views/cloud_platform_page/index.script.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20191130/gocmdb/server/views/cloud_platform_page/index.script.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gocmdb.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/.all-contributorsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/.github/ISSUE_TEMPLATE/custom.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/.github/workflows/go.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/.github/workflows/golangci-lint.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/.github/workflows/release.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/.github/workflows/stale.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/.goreleaser.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/README-zh.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/egrpc/component.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/egrpc/component_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/egrpc/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/egrpc/config_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/egrpc/container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/egrpc/container_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/egrpc/interceptor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/egrpc/interceptor_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/egrpc/option.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/egrpc/option_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/egrpc/resolver/resolver.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/egrpc/resolver/resolver_func_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/egrpc/resolver/resolver_registry_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/ehttp/component.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/ehttp/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/ehttp/container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/ehttp/interceptor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/client/ehttp/options.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/cmd/protoc-gen-go-errors/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/cmd/protoc-gen-go-errors/render.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/cmd/protoc-gen-go-errors/template.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/cmd/protoc-gen-go-http/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/cmd/protoc-gen-go-http/render.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/cmd/protoc-gen-go-http/template.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/cmd/protoc-gen-go-test/ast.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/cmd/protoc-gen-go-test/ast_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/cmd/protoc-gen-go-test/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/cmd/protoc-gen-go-test/render.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/cmd/protoc-gen-go-test/render_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/cmd/protoc-gen-go-test/template.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/constant/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/constant/env.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/constant/key.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/constant/service.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/constant/service_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eapp/env.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eapp/env_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eapp/pkg.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eapp/pkg_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/econf/api.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/econf/api_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/econf/conf.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/econf/container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/econf/file/file.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/econf/manager/manager.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/econf/option.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/econf/options_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eerrors/errors.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eerrors/errors.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eerrors/errors.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eerrors/errors_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eflag/flag.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eflag/flag_bool.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eflag/flag_float64.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eflag/flag_int.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eflag/flag_str.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eflag/flag_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eflag/flag_uint.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eflag/init.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/component.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/component_func.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/component_func_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/component_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/config_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/elog_api.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/elog_field.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/elog_field_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/elog_manager.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/elog_option.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/memory_encoder_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/rotate_buffer_syncer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/rotate_main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/elog/stderr_main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/emetric/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/emetric/counter.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/emetric/gauge.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/emetric/histogram.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/emetric/metric.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/emetric/summary.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eregistry/endpoint.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eregistry/endpoint_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eregistry/nop.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eregistry/nop_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eregistry/registry.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/eregistry/registry_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/esentinel/component.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/esentinel/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/esentinel/container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/esentinel/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/etrace/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/etrace/compatible.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/etrace/const.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/etrace/ejaeger/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/etrace/ejaeger/option.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/etrace/trace.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/standard/component.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/transport/grpc_transport.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/transport/transport.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/transport/transport_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xcolor/string.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xcolor/string_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xcolor/string_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xcycle/lifecycle.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xcycle/lifecycle_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xdebug/print.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xmap/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xmap/util_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xnet/ip.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xstring/conv.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xstring/conv_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xstring/function.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xstring/function_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xstring/json.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xstring/json_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xstring/uuid.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xstring/uuid_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xtime/xtime.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/core/util/xtime/xtime_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/client-grpc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/client-http.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/client-mysql.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/client-redis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/client_grpc1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/ego_flow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/ego_frame.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/frame.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/join.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/metric.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/startup.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/trace-client-grpc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/trace-server-grpc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/trace.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/docs/images/version.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/ego.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/ego_function.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/ego_function_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/ego_option.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/ego_option_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/ego_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/build/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/build/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/build/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/build/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/build/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/build/scripts/build/gobuild.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/build/scripts/build/report_build_info.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/config/oneline-by-file-watch/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/config/oneline-by-file-watch/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/config/oneline-by-file/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/config/oneline-by-file/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/config/struct-by-file-watch/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/config/struct-by-file-watch/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/config/struct-by-file/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/config/struct-by-file/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/direct/client/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/direct/client/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/direct/server/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/direct/server/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/direct/server/server/init_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/direct/server/test.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/errors/error.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/errors/errors.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/errors/errors.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/errors/errors_errors.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/header/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/header/client/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/header/client/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/header/server/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/header/server/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/origin/client/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/origin/client/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/origin/server/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/grpc/origin/server/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/hello/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/hello/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/helloworld/helloworld.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/helloworld/helloworld.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/helloworld/helloworld_grpc.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/http/client/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/http/client/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/http/grpc-proxy/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/http/grpc-proxy/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/http/headeruid/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/http/headeruid/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/http/headeruid/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/http/origin/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/http/server/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/http/server/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/logger/ali/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/logger/console/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/logger/file/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/logger/panic/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/logger/stderr/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/logger/watch/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/logger/watch/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/sentinel/http/config/local.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/sentinel/http/config/sentinel.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/sentinel/http/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/server/governor/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/server/governor/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/server/grpc/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/server/grpc/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/server/http/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/server/http/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/task/cron/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/task/cron/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/task/httpjob/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/task/httpjob/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/task/job/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/task/job/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/trace/grpc/client/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/trace/grpc/client/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/trace/grpc/server/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/trace/grpc/server/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/trace/http/client/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/trace/http/client/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/trace/http/server/config.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/examples/trace/http/server/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/ego/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/ego/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/ecode/code.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/ecode/code_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/egrpclog/grpclog.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/ienv/env.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/ienv/env_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/test/errcode/errors.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/test/errcode/errors.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/test/errcode/errors_errors.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/test/grpc_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/test/helloworld/helloworld.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/test/helloworld/helloworld.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/test/helloworld/helloworld_grpc.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/tools/tools.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/tools/tools_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/xcpu/cgroup.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/xcpu/cgroup_cpu.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/xcpu/cpu.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/xcpu/psutil_cpu.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/internal/xcpu/util.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/scripts/build/gobuild.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/scripts/build/report_build_info.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/component.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/component_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/component_websocket.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/const.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/grpc_proxy.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/grpc_proxy_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/interceptor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/interceptor_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/options.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/options_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoClient/anyClient-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoClient/anyClient.csr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoClient/anyClient.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoClient/ca-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoClient/ca-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoClient/ca.csr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoClient/ca.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoServer/ca-config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoServer/ca-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoServer/ca.csr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoServer/ca.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoServer/egoServer-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoServer/egoServer.csr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egin/testdata/egoServer/egoServer.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egovernor/component.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egovernor/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egovernor/container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egovernor/options.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egrpc/component.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egrpc/component_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egrpc/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egrpc/config_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egrpc/container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egrpc/container_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egrpc/interceptor.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egrpc/interceptor_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egrpc/opitons.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/egrpc/options_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/server.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/server/server_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/signal_posix.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/signal_windows.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/sonar-project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ecron/component.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ecron/component_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ecron/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ecron/container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ecron/lock.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ecron/options.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ecron/options_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ecron/scheduler.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ecron/wrappedjob.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ecron/wrappedlogger.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ejob/component.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ejob/component_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ejob/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ejob/container.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ejob/container_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ejob/options.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ego/task/ejob/options_test.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/grpc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/grpc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/grpc/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/grpc/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/logs/web.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/logs/web.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/temp/session/7/8/78f04da16ed7444e70c65ccba2908057" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../test.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +374,7 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="KubernetesApiPersistence">
-    <option name="context" value="kubernetes-admin@cluster.local" />
+    <option name="context" value="haoweilai-newvpc" />
     <option name="namespace" value="default" />
   </component>
   <component name="ProjectId" id="1qLAPAmL2PEY1XJ83ezGN7EBHzG" />
@@ -126,22 +452,21 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build options.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="gocmdb" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test/server.go" />
-      <package value="htgolang-201906/course/20191214/code/gocmdb" />
+      <filePath value="$PROJECT_DIR$/test/options.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build gocmdb/server" />
+        <item itemvalue="Go Build.go build options.go" />
         <item itemvalue="Go Build.go build htgolang-201906/course/20191214/code/gocmdb/rpc/demo1/client" />
         <item itemvalue="Go Build.go build htgolang-201906/course/20191214/code/gocmdb/rpc/demo1/server" />
         <item itemvalue="Go Build.go build htgolang-201906/course/20191214/code/gocmdb/test" />
-        <item itemvalue="Go Build.go build server.go" />
       </list>
     </recent_temporary>
   </component>

@@ -1,0 +1,12 @@
+{"lv":"info","ts":1645698519,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645698519,"msg":"init app","comp":"app","pid":49174,"coreNum":8}
+{"lv":"info","ts":1645698519,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/governor/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/governor/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/governor/config.toml"}
+{"lv":"info","ts":1645698519,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645698519,"msg":"start server","comp":"server.egovernor","compName":"server.governor","addr":"http://0.0.0.0:9003"}
+{"lv":"info","ts":1645698519,"msg":"start server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1645698519,"msg":"add route","comp":"server.egin","compName":"server.http","method":"GET","path":"/hello"}
+{"lv":"info","ts":1645698532,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.346,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":7,"peerIp":"127.0.0.1","tid":"160ccbf680bf0c11f73aaed66531d094","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645700028,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.144,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":7,"peerIp":"127.0.0.1","tid":"7123f6040f08704d486d9ef3d28c745c","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645700042,"msg":"stop server","comp":"server.egovernor","compName":"server.governor","addr":"http://0.0.0.0:9003"}
+{"lv":"info","ts":1645700042,"msg":"stop server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1645700042,"msg":"stop Ego, bye!","comp":"app"}

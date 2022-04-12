@@ -1,0 +1,211 @@
+{"lv":"info","ts":1645697662,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645697662,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645697668,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml"}
+{"lv":"info","ts":1645697668,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645697668,"msg":"init app","comp":"app","pid":46808,"coreNum":8}
+{"lv":"info","ts":1645697668,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645697668,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645697679,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.032,"peerName":"","peerIp":"127.0.0.1","tid":"1f01c40b7fe7613ef8209465899c136e"}
+{"lv":"info","ts":1645697679,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":3.271,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645697744,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645697744,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645697748,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml"}
+{"lv":"info","ts":1645697748,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645697748,"msg":"init app","comp":"app","pid":46977,"coreNum":8}
+{"lv":"info","ts":1645697748,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645697748,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645697762,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.028,"peerName":"","peerIp":"127.0.0.1","tid":"7d9310c937f49c05c2c002c02504c134"}
+{"lv":"info","ts":1645697762,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":3.231,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645697783,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.025,"peerName":"","peerIp":"127.0.0.1","tid":"3e41e4036818be2d8655ea3746bda5f9"}
+{"lv":"info","ts":1645697783,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":1.622,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645697801,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645697801,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645697805,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml"}
+{"lv":"info","ts":1645697805,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645697805,"msg":"init app","comp":"app","pid":47139,"coreNum":8}
+{"lv":"info","ts":1645697805,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645697805,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645697813,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645697813,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645697878,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml"}
+{"lv":"info","ts":1645697878,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645697878,"msg":"init app","comp":"app","pid":47520,"coreNum":8}
+{"lv":"info","ts":1645697878,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645697878,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645697880,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.036,"peerName":"","peerIp":"127.0.0.1","tid":"c85ab49a871988643fa56c2097e110ab"}
+{"lv":"info","ts":1645697880,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":3.041,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645697919,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645697919,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645697929,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml"}
+{"lv":"info","ts":1645697929,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645697929,"msg":"init app","comp":"app","pid":47740,"coreNum":8}
+{"lv":"info","ts":1645697929,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645697929,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645697932,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.04,"peerName":"","peerIp":"127.0.0.1","tid":"c927ac8977cc1fa16b5418273ec085be"}
+{"lv":"info","ts":1645697932,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":3.201,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645697936,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.021,"peerName":"","peerIp":"127.0.0.1","tid":"8beaa58902cc35e1ca0b2e1121dc7fe8"}
+{"lv":"info","ts":1645697936,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":3.419,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645697961,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.046,"peerName":"","peerIp":"127.0.0.1","tid":"54b6a52321fe2be2da125589348da390"}
+{"lv":"info","ts":1645697961,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":1.615,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645697979,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645697979,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645698004,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc/config.toml"}
+{"lv":"info","ts":1645698004,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645698004,"msg":"init app","comp":"app","pid":48150,"coreNum":8}
+{"lv":"info","ts":1645698004,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645698004,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645698011,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.043,"peerName":"","peerIp":"127.0.0.1","tid":"a1d3f01494156fb89799ad1e4cc07eb8"}
+{"lv":"info","ts":1645698011,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":3.782,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645698035,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.04,"peerName":"","peerIp":"127.0.0.1","tid":"79d057f06781c99e3bbb21dbb0a2a035"}
+{"lv":"info","ts":1645698035,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":2.14,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645699667,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645699667,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645699667,"msg":"init app","comp":"app","pid":52381,"coreNum":8}
+{"lv":"info","ts":1645699667,"msg":"init trace","comp":"app"}
+{"lv":"panic","ts":1645699667,"msg":"new grpc server err","comp":"server.egrpc","compName":"server.grpc","errKind":"listen err","error":"listen tcp4 0.0.0.0:9005: bind: address already in use","stack":"github.com/gotomicro/ego/core/elog.(*Component).Panic\n\t/Users/zhanghao/go/pkg/mod/github.com/gotomicro/ego@v0.9.0/core/elog/component.go:262\ngithub.com/gotomicro/ego/server/egrpc.(*Component).Init\n\t/Users/zhanghao/go/pkg/mod/github.com/gotomicro/ego@v0.9.0/server/egrpc/component.go:79\ngithub.com/gotomicro/ego.(*Ego).startServers.func1\n\t/Users/zhanghao/go/pkg/mod/github.com/gotomicro/ego@v0.9.0/ego_function.go:67\ngithub.com/gotomicro/ego/core/util/xcycle.(*Cycle).Run.func1\n\t/Users/zhanghao/go/pkg/mod/github.com/gotomicro/ego@v0.9.0/core/util/xcycle/lifecycle.go:40"}
+{"lv":"info","ts":1645699685,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645699685,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645699685,"msg":"init app","comp":"app","pid":52611,"coreNum":8}
+{"lv":"info","ts":1645699685,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645699685,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645699707,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.109,"peerName":"","peerIp":"127.0.0.1","tid":"7839f6f4497f05ae83cff7651f50ba2c"}
+{"lv":"info","ts":1645699707,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":4.228,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645699975,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645699975,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645699982,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645699982,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645699982,"msg":"init app","comp":"app","pid":53532,"coreNum":8}
+{"lv":"info","ts":1645699982,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645699982,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645700006,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645700006,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645700009,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645700009,"msg":"init app","comp":"app","pid":53641,"coreNum":8}
+{"lv":"info","ts":1645700009,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645700009,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645700009,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645700050,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645700050,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645700094,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645700094,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645700094,"msg":"init app","comp":"app","pid":53935,"coreNum":8}
+{"lv":"info","ts":1645700094,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645700094,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645700106,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.054,"peerName":"","peerIp":"127.0.0.1","tid":"e7a0c9e803878969bda11c4564f38bae"}
+{"lv":"info","ts":1645700106,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":5.667,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645700118,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645700118,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645700122,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645700122,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645700122,"msg":"init app","comp":"app","pid":54105,"coreNum":8}
+{"lv":"info","ts":1645700122,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645700122,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645700125,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.053,"peerName":"","peerIp":"127.0.0.1","tid":"edc04a17263c1df459317d3adcf6fbbc"}
+{"lv":"info","ts":1645700125,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":3.847,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645700127,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.031,"peerName":"","peerIp":"127.0.0.1","tid":"86c4e5888a5ea6b5de0a86ad1a2e8924"}
+{"lv":"info","ts":1645700127,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":2.837,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645700127,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.037,"peerName":"","peerIp":"127.0.0.1","tid":"a934266db28241a10c91dec224c5daac"}
+{"lv":"info","ts":1645700127,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":1.188,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645700137,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645700137,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645713468,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645713468,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645713468,"msg":"init app","comp":"app","pid":67124,"coreNum":8}
+{"lv":"info","ts":1645713468,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645713468,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645713495,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.054,"peerName":"","peerIp":"127.0.0.1","tid":"6ffcc45bac2fbbc906dda03a9dcbbe03"}
+{"lv":"info","ts":1645713495,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":3.096,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645713502,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.026,"peerName":"","peerIp":"127.0.0.1","tid":"701bad53f9e1eaad58b52384dfa3a7bb"}
+{"lv":"info","ts":1645713502,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":2.238,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645713857,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645713857,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645713864,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645713864,"msg":"init app","comp":"app","pid":68323,"coreNum":8}
+{"lv":"info","ts":1645713864,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645713864,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645713864,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645713867,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.056,"peerName":"","peerIp":"127.0.0.1","tid":"3dd80a4c524112a54a1a93bd42bbe7f8"}
+{"lv":"info","ts":1645713867,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":2.334,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645713961,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645713961,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645713965,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645713965,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645713965,"msg":"init app","comp":"app","pid":68652,"coreNum":8}
+{"lv":"info","ts":1645713965,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645713965,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645714094,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645714094,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645714177,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645714177,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645714177,"msg":"init app","comp":"app","pid":69499,"coreNum":8}
+{"lv":"info","ts":1645714177,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645714177,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645714177,"msg":"start server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1645714177,"msg":"add route","comp":"server.egin","compName":"server.http","method":"GET","path":"/hello"}
+{"lv":"info","ts":1645714186,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.059,"peerName":"","peerIp":"127.0.0.1","tid":"f968f7c9f74d95ca0ad3b572bde6ffcd"}
+{"lv":"info","ts":1645714186,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":3.805,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645714188,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.138,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":11,"peerIp":"127.0.0.1","tid":"3322fed5d26c1a6517a1c4fc4c0f4862","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714188,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.09,"method":"GET.","addr":"/favicon.ico","ip":"127.0.0.1","size":-1,"peerIp":"127.0.0.1","tid":"3e2065bb2cfb950b014215bc66451fa6","event":"normal","error":"","code":404}
+{"lv":"info","ts":1645714241,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645714241,"msg":"stop server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1645714241,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645714248,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645714248,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645714248,"msg":"init app","comp":"app","pid":69796,"coreNum":8}
+{"lv":"info","ts":1645714248,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645714248,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645714248,"msg":"start server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1645714248,"msg":"add route","comp":"server.egin","compName":"server.http","method":"GET","path":"/hello"}
+{"lv":"info","ts":1645714255,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.04,"peerName":"","peerIp":"127.0.0.1","tid":"30fe5a5f7e5671274ca1b37543c6f931"}
+{"lv":"info","ts":1645714255,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":3.773,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645714259,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.017,"peerName":"","peerIp":"127.0.0.1","tid":"f612a2f34f3ecb3e486ddf1421a71edf"}
+{"lv":"info","ts":1645714259,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":1.146,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645714266,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.104,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":11,"peerIp":"127.0.0.1","tid":"0a69daded235203278a243bfc8c5d9d2","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714266,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.033,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":11,"peerIp":"127.0.0.1","tid":"15def466e91a14f9247a3fa48c724491","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714267,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.035,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":11,"peerIp":"127.0.0.1","tid":"f8f304ca97cd45d00e1d3a26c4d3d23b","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714267,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.039,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":11,"peerIp":"127.0.0.1","tid":"c0ee397301c384d81c80ac25e8078de0","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714267,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.037,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":11,"peerIp":"127.0.0.1","tid":"525c1104d38c0514c7dbbaecce499e83","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714268,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.038,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":11,"peerIp":"127.0.0.1","tid":"56997481d00121d4000aefa1668a2987","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714268,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.039,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":11,"peerIp":"127.0.0.1","tid":"da01fbbc5995d0d15490573207bfa1c6","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714274,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645714274,"msg":"stop server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1645714274,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645714279,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645714279,"msg":"init app","comp":"app","pid":69991,"coreNum":8}
+{"lv":"info","ts":1645714279,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645714279,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645714279,"msg":"start server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1645714279,"msg":"add route","comp":"server.egin","compName":"server.http","method":"GET","path":"/hello"}
+{"lv":"info","ts":1645714279,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645714279,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.37,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":26,"peerIp":"127.0.0.1","tid":"98a0911c89df669e8b837b6e1b47cc0a","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714280,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.045,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":26,"peerIp":"127.0.0.1","tid":"fe4cb367c6b3d13bfab958e38b556e16","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714280,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.045,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":26,"peerIp":"127.0.0.1","tid":"94defc34f901b5566513e4169e1f6130","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714280,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.042,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":26,"peerIp":"127.0.0.1","tid":"71d077672c544459e8a8189b9b0c2482","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714281,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.035,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":26,"peerIp":"127.0.0.1","tid":"0232faa775f7d6c829a242199325ba9c","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714281,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.032,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":26,"peerIp":"127.0.0.1","tid":"cf2d00d529f8b64da36c0c46a95d2622","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714551,"msg":"stop server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645714551,"msg":"stop server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1645714551,"msg":"stop Ego, bye!","comp":"app"}
+{"lv":"info","ts":1645714557,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645714557,"msg":"init app","comp":"app","pid":71549,"coreNum":8}
+{"lv":"info","ts":1645714557,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645714557,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645714557,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645714557,"msg":"start server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1645714557,"msg":"add route","comp":"server.egin","compName":"server.http","method":"GET","path":"/hello"}
+{"lv":"info","ts":1645714561,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.027,"peerName":"","peerIp":"127.0.0.1","tid":"aa64aa938644124a70e49ffd48df69b5"}
+{"lv":"info","ts":1645714561,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":3.652,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645714563,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.141,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":26,"peerIp":"127.0.0.1","tid":"f5f640ae57380ff4cb221078106ab55a","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714564,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.044,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":26,"peerIp":"127.0.0.1","tid":"0014d130a34b2caade108a4b484b21b6","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714564,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.097,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":26,"peerIp":"127.0.0.1","tid":"2f93a84401fca029071b801087935a86","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645714565,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.072,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":26,"peerIp":"127.0.0.1","tid":"4a5197c3413150b06fa96d11c7aab176","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645772997,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/grpc_http/config.toml"}
+{"lv":"info","ts":1645772997,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645772997,"msg":"init app","comp":"app","pid":2995,"coreNum":8}
+{"lv":"info","ts":1645772997,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645772997,"msg":"start server","comp":"server.egrpc","compName":"server.grpc","addr":"grpc://0.0.0.0:9005"}
+{"lv":"info","ts":1645772997,"msg":"start server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1645772997,"msg":"add route","comp":"server.egin","compName":"server.http","method":"GET","path":"/hello"}
+{"lv":"info","ts":1645773031,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"unary","code":0,"ucode":200,"desc":"OK","event":"normal","method":"/helloworld.Greeter/SayHello","cost":0.025,"peerName":"","peerIp":"127.0.0.1","tid":"09c3cccb1adbd6c81fac0785843369b7"}
+{"lv":"info","ts":1645773031,"msg":"access","comp":"server.egrpc","compName":"server.grpc","type":"stream","event":"normal","code":0,"ucode":200,"desc":"OK","cost":3.574,"peerName":"","peerIp":"127.0.0.1"}
+{"lv":"info","ts":1645773121,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.158,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":26,"peerIp":"127.0.0.1","tid":"6ff9013f565895f0a2aac1703e550bd1","event":"normal","error":"","code":200}

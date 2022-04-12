@@ -1,0 +1,14 @@
+{"lv":"warn","ts":1645695993,"msg":"no config... ","comp":"core.econf","addr":"config/local.toml","error":"default config not exist"}
+{"lv":"info","ts":1645695993,"msg":"init app","comp":"app","pid":32707,"coreNum":8}
+{"lv":"info","ts":1645695993,"msg":"init trace","comp":"app"}
+{"lv":"panic","ts":1645695993,"msg":"parse config error","comp":"server.egin","compName":"server.http","error":"server.http,err: invalid key, maybe not exist in config","key":"server.http","stack":"github.com/gotomicro/ego/core/elog.(*Component).Panic\n\t/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/core/elog/component.go:262\ngithub.com/gotomicro/ego/server/egin.Load\n\t/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/server/egin/container.go:31\nmain.main.func1\n\t/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/hello/main.go:13\nmain.main\n\t/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/hello/main.go:19\nruntime.main\n\t/usr/local/go/src/runtime/proc.go:255"}
+{"lv":"info","ts":1645696057,"msg":"init config","comp":"core.econf","addr":"config.toml"}
+{"lv":"info","ts":1645696057,"msg":"init app","comp":"app","pid":32891,"coreNum":8}
+{"lv":"info","ts":1645696057,"msg":"read watch","comp":"core.econf","comp":"file datasource","configFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/hello/config.toml","realConfigFile":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/hello/config.toml","fppath":"/Users/zhanghao/go/src/htgolang-201906/course/20191214/code/gocmdb/ego/examples/hello/config.toml"}
+{"lv":"info","ts":1645696057,"msg":"init trace","comp":"app"}
+{"lv":"info","ts":1645696057,"msg":"start server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1645696057,"msg":"add route","comp":"server.egin","compName":"server.http","method":"GET","path":"/hello"}
+{"lv":"info","ts":1645696070,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.28,"method":"GET./hello","addr":"/hello","ip":"127.0.0.1","size":11,"peerIp":"127.0.0.1","tid":"5cc088b47c39e8e79b8985a29e650ee3","event":"normal","error":"","code":200}
+{"lv":"info","ts":1645696070,"msg":"access","comp":"server.egin","compName":"server.http","type":"http","cost":0.053,"method":"GET.","addr":"/favicon.ico","ip":"127.0.0.1","size":-1,"peerIp":"127.0.0.1","tid":"3a7a7a9bc69a1d5f0a8b088096dc9acb","event":"normal","error":"","code":404}
+{"lv":"info","ts":1645696122,"msg":"stop server","comp":"server.egin","compName":"server.http","addr":"http://[::]:9001"}
+{"lv":"info","ts":1645696122,"msg":"stop Ego, bye!","comp":"app"}
